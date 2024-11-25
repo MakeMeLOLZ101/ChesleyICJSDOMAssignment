@@ -1,4 +1,4 @@
-document.addEventListener('readystatechange', () => {
+
     const boxNumberInput = document.getElementById('boxNumber');
     const colorInput = document.getElementById('changeColor');
     const changeColorBtn = document.querySelector('.btn-primary:first-child');
@@ -33,4 +33,3 @@ document.addEventListener('readystatechange', () => {
             box.style.backgroundColor = '';
         }
     });
-});
